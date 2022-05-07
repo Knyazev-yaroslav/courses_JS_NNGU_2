@@ -6,7 +6,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:jest/recommended',
     'plugin:prettier/recommended',
-    'airbnb-typescript-prettier',
   ],
   plugins: ['react', '@typescript-eslint', 'jest', 'import'],
   env: {
@@ -25,7 +24,6 @@ module.exports = {
     },
     ecmaVersion: 2018,
     sourceType: 'module',
-    tsconfigRootDir: __dirname,
     project: ['./tsconfig.json'],
   },
   rules: {
