@@ -5,6 +5,7 @@ interface IItem {
   name: string;
   description: string;
 }
+
 const Item: FC<IItem> = (props) => {
   const { name, description } = props;
 
