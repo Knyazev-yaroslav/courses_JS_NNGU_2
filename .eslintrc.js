@@ -30,6 +30,8 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'warn',
     'linebreak-style': 'off',
     'react/function-component-definition': 'off',
+    'import/prefer-default-export': 'off',
+    'no-plusplus': 'off',
     'prettier/prettier': [
       'error',
       {
