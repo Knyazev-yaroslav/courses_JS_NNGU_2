@@ -5,9 +5,9 @@ interface IProps {
   limit: number;
   itemsAmount: number;
 }
+
 const Pagination: FC<IProps> = ({ limit, itemsAmount }) => {
   const pagesAmount = Math.ceil(itemsAmount / limit);
-
   const pagesArray: number[] = [];
 
   const navigate = useNavigate();
@@ -15,6 +15,7 @@ const Pagination: FC<IProps> = ({ limit, itemsAmount }) => {
   for (let i = 1; i <= pagesAmount; i++) {
     pagesArray.push(i);
   }
+
   return (
     <div>
       {pagesArray.map((page) => (

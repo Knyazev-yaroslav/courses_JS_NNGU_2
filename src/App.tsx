@@ -11,9 +11,9 @@ const App = () => {
     <PageLayout>
       <Routes>
         <Route path="/" element={<UsersPage />} />
-        <Route path="/users_page" element={<UsersPage />} />
+        <Route path="users_page" element={<UsersPage />} />
         <Route path="users_page/:id" element={<UserComponent />} />
-        <Route path="/test_page" element={<TestPage />} />
+        <Route path="test_page" element={<TestPage />} />
       </Routes>
     </PageLayout>
   );
