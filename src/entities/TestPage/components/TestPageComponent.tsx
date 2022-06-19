@@ -6,7 +6,6 @@ const TestPageComponent = () => {
 
   const updatedArray = useMemo(() => {
     return someArray.map((num) => {
-      console.log('hello');
       return num + 10;
     });
   }, [someArray]);
